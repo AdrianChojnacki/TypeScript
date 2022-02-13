@@ -1,20 +1,7 @@
 class Example {
-  public readonly id: number;
-  private name: string;
-  protected costam: string;
-
-  constructor(id: number, name: string, costam: string) {
-    this.id = id;
-    this.name = name;
-    this.costam = costam;
-  }
-
-  changeId() {
-    this.id = 5;
-  }
+  constructor(public readonly id: number, name: string) {}
 }
 
-const example = new Example(55, 'Samurajła', 'Pipkos');
+const example = new Example(55, 'Samurajła');
 
-example.name;
-example.costam;
+console.log(example.id);

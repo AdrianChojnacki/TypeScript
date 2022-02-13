@@ -1,5 +1,5 @@
 class Example {
-  constructor(public readonly id: number, name: string) {}
+  constructor(public readonly id: number, private readonly name: string) {}
 }
 
 const example = new Example(55, 'Samurajła');

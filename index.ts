@@ -1,6 +1,9 @@
-let x = 5;
-let y = '4';
+class Example {
+  id: number;
+  name: string;
 
-const add = (x: number, y = 0): number => x + y;
-
-console.log(add(x, y));
+  constructor(id: string, name: string) {
+    this.id = id;
+    this.name = name;
+  }
+}

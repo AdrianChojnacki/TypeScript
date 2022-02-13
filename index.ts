@@ -13,3 +13,8 @@ class Example {
     this.id = 5;
   }
 }
+
+const example = new Example(55, 'Samurajła', 'Pipkos');
+
+example.name;
+example.costam;

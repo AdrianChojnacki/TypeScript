@@ -1,6 +1,3 @@
-// Import stylesheets
-import './style.css';
+let numberOfAge = 18;
 
-// Write TypeScript code!
-const appDiv: HTMLElement = document.getElementById('app');
-appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
+numberOfAge = '18';

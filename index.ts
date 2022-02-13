@@ -1,3 +1,3 @@
-let numberOfAge: string;
+let numberOfAge: number | string = 18;
 
-numberOfAge = String(true);
+numberOfAge = '18';

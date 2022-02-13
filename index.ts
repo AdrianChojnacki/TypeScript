@@ -1,3 +1,6 @@
-let numberOfAge: number | string = 18;
+let x = '5';
+let y = 4;
 
-numberOfAge = '18';
+const add = (x: number, y: number) => x + y;
+
+console.log(add(x, y));
